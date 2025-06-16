@@ -35,7 +35,7 @@ class BaseComponent:
         obj.DrillPart = part
 
 class KM05(BaseComponent):
-    def __init__(self, obj, stl=("KM05-Step.stl", (90, 0, 90), (2.084, -1.148, 0.498)), color=optomech.adapter_color, drill=True, thumbscrews=True):
+    def __init__(self, obj, stl=("KM05-Step.stl", (90, 0, 90), (2.084, -1.148, 0.498)), color=(0,0,0), drill=True, thumbscrews=True):
         super().__init__(obj, stl=stl, drill=drill, color=color, thumbscrews=thumbscrews)
 
 class LA1472(BaseComponent):
